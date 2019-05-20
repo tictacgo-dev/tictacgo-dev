@@ -3,14 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tictacgo.dev/about/</loc>
+    <loc>https://tictacgo.dev/</loc>
     <lastmod>2019-05-20T13:08:18-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tictacgo.dev/</loc>
+    <loc>https://tictacgo.dev/about/</loc>
     <lastmod>2019-05-20T13:08:18-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
