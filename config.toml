@@ -11,7 +11,7 @@ enableGitInfo = true
   tag = "tags"
 
 [permalinks]
-  post = "/:filename/"
+  posts = "/:filename/"
 
 [imaging]
   quality = 99
@@ -30,7 +30,7 @@ enableGitInfo = true
     weight = 1
   [[menu.nav]]
     name = "Blog"
-    url = "/post/"
+    url = "/posts/"
     weight = 2
   [[menu.nav]]
     name = "Tags"
