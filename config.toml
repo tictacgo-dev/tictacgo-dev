@@ -1,0 +1,46 @@
+baseURL = "https://tictacgo.dev"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "TicTacGo"
+theme = "cupper-hugo-theme"
+googleAnalytics = "UA-140474047-1"
+disqusShortname = "yourdiscussshortname"
+enableGitInfo = true
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  post = "/:filename/"
+
+[imaging]
+  quality = 99
+
+[params]
+  description = "coming soon."
+  footer = "Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/)."
+  dateFormat = "Jan 2, 2006"
+  codePenUser = "someUser"
+  katex = true
+
+[menu]
+  [[menu.nav]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.nav]]
+    name = "Blog"
+    url = "/post/"
+    weight = 2
+  [[menu.nav]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+  [[menu.nav]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+  [[menu.nav]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 5
